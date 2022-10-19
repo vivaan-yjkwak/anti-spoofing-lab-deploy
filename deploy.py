@@ -153,9 +153,11 @@ if __name__ == '__main__':
   os.environ["CUDA_VISIBLE_DEVICES"] = "{}".format(GPU)
 
   ######################## Test Sample
+  #/home/user/data1/DBs/antispoofing/RECOD-MPAD/Test/attack/cce/motog5/user_01/01_01_01_03/01_01_01_03_0001.jpg
   strtestimg = "./samples/fake_01.jpg"
   deploycolorfas(strtestimg)
 
+  #/home/user/data1/DBs/antispoofing/RECOD-MPAD/Test/attack/cce/motog5/user_01/01_01_01_03/01_01_01_03_0001.jpg
   strtestimg = "./samples/real_01.jpg"
   deploycolorfas(strtestimg)
 
