@@ -1,2 +1,1 @@
-from .myresnet import myresnet18
-from .baseresnet import baseresnet18
+from .baseresnetwgrl import baseresnet18wgrl
